@@ -6,7 +6,8 @@
 		"Shadcnui",
 		"Sooperwizer",
 		"vite",
-		"Wimetrix"
+		"Wimetrix",
+		"Supabase"
 	],
 	"ignorePaths": [
 		"package-lock.json",
