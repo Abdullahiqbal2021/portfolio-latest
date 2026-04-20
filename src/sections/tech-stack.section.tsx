@@ -73,7 +73,6 @@ const techs = [
 				icon: <FaBootstrap color='rgb(125, 17, 248)' />,
 				color: 'rgb(125, 17, 248, 0.75)',
 			},
-			// Optionally add ShadCn here
 		],
 	},
 	{

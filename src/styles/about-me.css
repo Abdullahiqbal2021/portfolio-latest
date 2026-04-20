@@ -2,8 +2,6 @@
 	min-height: 100vh;
 	display: flex;
 	padding: 2rem 4rem;
-	/* justify-content: center;
-	align-items: center; */
 }
 
 .about-me .title {
@@ -87,7 +85,6 @@
 	color: rgb(var(--primary));
 	letter-spacing: 0.1rem;
 	font-size: 1.2rem;
-	letter-spacing: 0.1rem;
 	text-transform: uppercase;
 	font-weight: 500;
 }
