@@ -35,13 +35,17 @@ export const MouseTrail = () => {
 			circle.y = 0;
 		});
 
-		window.addEventListener('mousemove', function (e) {
+		const handleMouseMove = (e: MouseEvent) => {
 			circles.forEach((circle) => {
 				circle.classList.remove('circle-hidden');
 			});
 			coords.x = e.clientX;
 			coords.y = e.clientY;
-		});
+		};
+
+		window.addEventListener('mousemove', handleMouseMove);
+
+		let rafId: number;
 
 		function animateCircles() {
 			let x = coords.x;
@@ -59,12 +63,14 @@ export const MouseTrail = () => {
 				y += (nextCircle.y - y) * 0.35;
 			});
 
-			requestAnimationFrame(animateCircles);
+			rafId = requestAnimationFrame(animateCircles);
 		}
 
 		animateCircles();
 
 		return () => {
+			cancelAnimationFrame(rafId);
+			window.removeEventListener('mousemove', handleMouseMove);
 			fields.forEach((input) => {
 				input.removeEventListener('mouseover', handleMouseOver);
 				input.removeEventListener('mouseout', handleMouseOut);
