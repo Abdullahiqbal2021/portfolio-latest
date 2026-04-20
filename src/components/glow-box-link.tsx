@@ -11,7 +11,7 @@ type PropsType = {
 export const GlowLink = ({ color, icon, href, ...props }: PropsType) => {
 	return (
 		<a
-			target='_black'
+			target='_blank'
 			href={href}
 			className='glow-box glow-link'
 			style={{
