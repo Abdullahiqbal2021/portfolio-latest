@@ -3,11 +3,13 @@ import { IoMailOutline } from 'react-icons/io5';
 
 import { FloatingButton } from '../components/floating-button';
 import { GlowLink } from '../components/glow-box-link';
+import { HeroBg } from '../components/hero-bg';
 import { TextHover } from '../components/text-hover.component';
 
 export const InfoSection = () => {
 	return (
 		<div className='hero-section'>
+			<HeroBg />
 			<a
 				href='https://github.com/Abdullahiqbal2021/portfolio-latest'
 				target='_blank'
