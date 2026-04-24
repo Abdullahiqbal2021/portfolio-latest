@@ -1,8 +1,22 @@
 {
 	"name": "portfolio-latest",
-	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.0",
+	"description": "Personal portfolio website built with React, TypeScript, and Vite",
+	"keywords": ["portfolio", "react", "typescript", "vite", "frontend"],
+	"license": "MIT",
 	"type": "module",
+	"homepage": "https://abdullah-portfolio-dev.vercel.app/",
+	"author": {
+		"name": "Abdullah Iqbal",
+		"url": "https://abdullah-portfolio-dev.vercel.app/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Abdullahiqbal2021/portfolio-latest"
+	},
+	"bugs": {
+		"url": "https://github.com/Abdullahiqbal2021/portfolio-latest/issues"
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
