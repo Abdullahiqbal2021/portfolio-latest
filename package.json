@@ -2,7 +2,12 @@
 	"name": "portfolio-latest",
 	"version": "1.0.0",
 	"description": "Personal portfolio website built with React, TypeScript, and Vite",
-	"keywords": ["portfolio", "react", "typescript", "vite", "frontend"],
+	"keywords": [
+		"portfolio",
+		"react",
+		"typescript",
+		"vite"
+	],
 	"license": "MIT",
 	"type": "module",
 	"homepage": "https://abdullah-portfolio-dev.vercel.app/",
@@ -21,6 +26,7 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint . --fix --report-unused-disable-directives && pnpm format && pnpm spellcheck",
+		"lint:ci": "eslint . --report-unused-disable-directives && prettier --check . && pnpm spellcheck",
 		"preview": "vite preview",
 		"spellcheck": "cspell . --quiet",
 		"format": "prettier --write --log-level silent ."
