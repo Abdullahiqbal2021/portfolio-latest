@@ -1,7 +1,5 @@
 import { useEffect, useRef } from 'react';
 
-import '../styles/hero-bg.css';
-
 const COUNT = 30;
 const MAX_DIST = 300;
 
