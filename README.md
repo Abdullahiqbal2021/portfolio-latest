@@ -1,12 +1,22 @@
-# Portfolio
+# Abdullah Iqbal — Portfolio
 
-## Building Blocks
+Personal portfolio built with React, TypeScript, and Vite.
 
-- [`React`](https://react.dev) (with [`Vite`](https://vitejs.dev))
-- [`Typescript`](https://www.typescriptlang.org/)
-- Package Manager: [`pnpm`](https://pnpm.io)
+## Stack
 
----
+- [React](https://react.dev) + [Vite](https://vitejs.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [pnpm](https://pnpm.io)
+
+## Customization
+
+All content (name, bio, links, experience, tech stack, SEO) lives in one file:
+
+```
+src/data/portfolio.ts
+```
+
+Edit that file to update anything about the portfolio.
 
 ## Scripts
 
@@ -32,4 +42,10 @@ pnpm build
 
 ```bash
 pnpm preview
+```
+
+#### Lint Codebase:
+
+```bash
+pnpm lint
 ```
