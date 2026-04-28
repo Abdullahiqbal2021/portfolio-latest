@@ -22,13 +22,24 @@ export const InfoSection = () => {
 				</a>
 			)}
 
-			<FloatingButton label={aboutNav.label} className={aboutNav.className} href={aboutNav.href} />
+			<FloatingButton
+				label={aboutNav.label}
+				className={aboutNav.className}
+				href={aboutNav.href}
+			/>
 
 			<p>{personal.greeting}</p>
-			<TextHover text={personal.name} className='name' />
+			<TextHover
+				text={personal.name}
+				className='name'
+			/>
 			<p>{personal.title}</p>
 
-			<FloatingButton label={techNav.label} className={techNav.className} href={techNav.href} />
+			<FloatingButton
+				label={techNav.label}
+				className={techNav.className}
+				href={techNav.href}
+			/>
 
 			<div className='blur'></div>
 			<div className='bottom-bar'>

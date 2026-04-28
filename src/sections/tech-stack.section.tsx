@@ -4,7 +4,10 @@ import { techStack } from '../data/portfolio';
 
 export const TechStack = () => {
 	return (
-		<section className='tech-stack' id='tech-stack'>
+		<section
+			className='tech-stack'
+			id='tech-stack'
+		>
 			<div className='tech-grid'>
 				{techStack.groups.map((group, idx) => (
 					<div key={idx}>
