@@ -1,6 +1,5 @@
 import { FloatingButton } from '../components/floating-button';
 import { GlowLink } from '../components/glow-box-link';
-import { HeroBg } from '../components/hero-bg';
 import { TextHover } from '../components/text-hover.component';
 import { navButtons, personal, socialLinks } from '../data/portfolio';
 
@@ -9,7 +8,6 @@ export const InfoSection = () => {
 
 	return (
 		<div className='hero-section'>
-			<HeroBg />
 			{personal.showRepoStar && (
 				<a
 					href={personal.repoUrl}
