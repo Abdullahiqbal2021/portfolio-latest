@@ -82,7 +82,14 @@ export const HexBg = () => {
 				if (hex.glow > 0.4) {
 					const cx = hex.cx;
 					const cy = hex.cy;
-					const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, HEX_SIZE * 0.8);
+					const grad = ctx.createRadialGradient(
+						cx,
+						cy,
+						0,
+						cx,
+						cy,
+						HEX_SIZE * 0.8,
+					);
 					grad.addColorStop(0, `rgba(31,195,255,${(hex.glow - 0.4) * 0.28})`);
 					grad.addColorStop(1, 'rgba(31,195,255,0)');
 					ctx.beginPath();
@@ -122,5 +129,10 @@ export const HexBg = () => {
 		};
 	}, []);
 
-	return <canvas ref={canvasRef} className='hex-canvas' />;
+	return (
+		<canvas
+			ref={canvasRef}
+			className='hex-canvas'
+		/>
+	);
 };
