@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
-const COUNT = 30;
-const MAX_DIST = 300;
+const COUNT = 20;
+const MAX_DIST = 350;
 
 const COLORS: [number, number, number][] = [
 	[31, 195, 255],
