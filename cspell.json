@@ -2,12 +2,13 @@
 	"words": [
 		"Avenir",
 		"BSCS",
+		"esbuild",
 		"Msql",
 		"Shadcnui",
 		"Sooperwizer",
+		"Supabase",
 		"vite",
-		"Wimetrix",
-		"Supabase"
+		"Wimetrix"
 	],
 	"ignorePaths": [
 		"package-lock.json",
