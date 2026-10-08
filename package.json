@@ -32,14 +32,14 @@
 		"format": "prettier --write --log-level silent ."
 	},
 	"dependencies": {
-		"react": "^19.2.8",
-		"react-dom": "^19.2.8",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0",
 		"react-icons": "^5.7.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.39.5",
-		"@types/react": "^19.2.18",
-		"@types/react-dom": "^19.2.4",
+		"@types/react": "^19.3.0",
+		"@types/react-dom": "^19.3.0",
 		"@vitejs/plugin-react": "^4.7.0",
 		"cspell": "^8.19.4",
 		"eslint": "^9.39.5",
@@ -51,10 +51,10 @@
 		"eslint-plugin-react-refresh": "^0.4.26",
 		"eslint-plugin-unused-imports": "^4.4.1",
 		"globals": "^15.15.0",
-		"prettier": "^3.9.6",
+		"prettier": "^3.9.9",
 		"typescript": "~5.7.3",
-		"typescript-eslint": "^8.65.0",
+		"typescript-eslint": "^8.70.1",
 		"vite": "^6.4.2"
 	},
-	"packageManager": "pnpm@11.3.0"
+	"packageManager": "pnpm@12.6.0"
 }
